@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fintoosh - Social Media for Personal Finance</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+        }
+
+        .logo {
+            font-size: 3em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #fdbb2d;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .email-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        input[type="email"] {
+            padding: 15px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            background: rgba(255, 255, 255, 0.9);
+        }
+
+        button {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            background: #fdbb2d;
+            color: #1a2a6c;
+            font-size: 1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+
+        .feature {
+            flex: 1;
+            min-width: 200px;
+            padding: 20px;
+        }
+
+        .feature i {
+            font-size: 2em;
+            margin-bottom: 15px;
+            color: #fdbb2d;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .feature {
+                min-width: 100%;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">Fintoosh</div>
+        <h1>The Future of Personal Finance Social Media</h1>
+        <p>Connect, Share, and Grow Your Wealth Together</p>
+        <p>Join a community of like-minded investors sharing investment ideas and financial wisdom.</p>
+        
+        <div class="email-form">
+            <input type="email" placeholder="Enter your email for early access">
+            <button>Notify Me</button>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <i class="fas fa-chart-line"></i>
+                <h3>Investment Ideas</h3>
+                <p>Share and discover profitable investment opportunities</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-users"></i>
+                <h3>Community</h3>
+                <p>Connect with experienced investors and beginners alike</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-book-reader"></i>
+                <h3>Financial Education</h3>
+                <p>Learn from the community's collective wisdom</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
